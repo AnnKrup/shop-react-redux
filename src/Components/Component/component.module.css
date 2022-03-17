@@ -1,0 +1,99 @@
+.btnContinueShopping {
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 20px;
+}
+
+.totalPrice {
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.cartItemWrapper {
+    height: 170px;
+    width: 170px;
+}
+
+.cartItemImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cartItemTitle {
+    width: 250px;
+}
+
+.cartItemCounter {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.itemBtn > div {
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 40px 0;
+}
+
+.item {
+    display: flex;
+}
+
+.itemContainer {
+    height: 300px;
+    display: flex;
+    flex: 100%;
+}
+
+
+.itemTitle {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 610px) {
+    .item {
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .cartItem {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cartItemTitle {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cartItemCounterWr {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .cartItemWrapper {
+        margin-bottom: 20px;
+    }
+}
