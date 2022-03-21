@@ -2,8 +2,8 @@
 
 # dependencies
 /node_modules
-/public
 /heroku
+/.idea
 /.pnp
 .pnp.js
 
